@@ -38,6 +38,10 @@ Route::group(['prefix' => 'api'], function() use ($router){
 
 });
 Route::get('/hello', 'Controller@hello');
+Route::get('/getDetails', 'Controller@getData');
+
+
+
 
 
 
